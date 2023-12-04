@@ -81,3 +81,27 @@ p {
   background: rgba(70, 124, 79, 0.329);
   border-radius: 40%;
 }
+
+@media (max-width: 1353px) {
+  .img_main {
+    margin-left: 27px;
+  }
+}
+@media (max-width: 1253px) {
+  section {
+    margin-left: 4px;
+  }
+}
+
+@media (max-width: 1173px) {
+  .img_main {
+    margin: 0 auto;
+    display: block;
+  }
+  h1{
+    text-align: center;
+    margin: 15px auto;
+
+    width: 100vw;
+  }
+}
